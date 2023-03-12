@@ -1,6 +1,7 @@
 function createHTML (team){
     const managerHTML =""
     const engineerHTML = ""
+    const internHTML = ""
     team.forEach(element => {
         switch(element.getRole(){
             case "Engineer":
